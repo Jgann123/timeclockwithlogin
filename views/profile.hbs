@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="stylesheet/profile.css">
+</head>
+<body>
+
+
+<header>
+<div class="container">  
+
+
+
+ 
+ <nav>
+   <ul id="list">
+    <li><h1>Profits With Advertising</h1></li><br>
+   
+   </ul>
+ </nav>
+ 
+ </div>  
+
+ </header>
+
+
+
+<h1 id="createA">Hello: {{FirstName}} {{LastName}}!</h1>
+
+<div class="flex-box-container-1">
+
+{{!-- <h2>Email: {{Email}}   <br> Username: {{Username}}</h2><br> --}}
+
+ 
+
+
+
+
+</form>
+<form action="/users/clockin" method="POST">
+ <hr>
+<div class="flex-outer">
+        
+
+       <div>
+        <input type="hidden" value={{FirstName}} name="FirstName" class="form-control" placeholder="First Name*">
+      </div>
+       
+      <div>
+        <input type="hidden" value={{LastName}} name="LastName" class="form-control" placeholder="Last Name*">
+      </div>
+      
+       
+      {{!-- <div>
+        <label id="dateL" for="date">Date:</label><br>
+        <input for="date" type="date" name="date" class="form-control">
+      </div> --}}
+
+
+<br>
+       <div>
+        <button class="btn btn-success"  id="submit12" type="submit" class="form-control" >CLock In</button>
+       </div>
+       
+</form>
+
+</form>
+<form action="/users/clockout" method="POST">
+ <hr>
+<div class="flex-outer">
+        
+
+       <div>
+        <input type="hidden" value={{FirstName}} name="FirstName" class="form-control" placeholder="First Name*">
+      </div>
+       
+      <div>
+        <input type="hidden" value={{LastName}} name="LastName" class="form-control" placeholder="Last Name*">
+      </div>
+      
+       
+      {{!-- <div>
+        <label id="dateL" for="date">Date:</label><br>
+        <input for="date" type="date" name="date" class="form-control">
+      </div> --}}
+
+
+<br>
+       <div>
+        <button class="btn btn-danger"  id="submit12" type="submit" class="form-control" >CLock Out</button>
+       </div>
+</form>
+
+
+</div>
+
+<script type="text/javascript" src="/script.js"></script>
+</body>
+</html>

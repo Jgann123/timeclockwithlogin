@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "gannjeremy644@pwa",
+    "password": "Nicole18",
+    "database": "profits_with_advertising",
+    "host": "pwa.mysql.database.azure.com",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": true
+   }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

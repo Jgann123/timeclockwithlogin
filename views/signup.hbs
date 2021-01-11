@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+
+
+<header>
+<div class="container">  
+
+
+
+ 
+ <nav>
+   <ul id="list">
+    <li><h1>Profits With Advertising</h1></li><br>
+   
+   </ul>
+ </nav>
+  
+ 
+ </div>  
+
+ </header>
+  
+
+
+<h1 id="createA">Create Account.</h1>
+<div class="flex-box-container-1">
+
+<form id="signup" name="signup" method="POST" action="/users/signup">
+    <div>
+        <label id="firstNameL" for="name">First Name: </label><br>
+        <input type="text" name="firstName" placeholder="First Name*" required>
+    </div>
+    <div>
+        <label id="lastNameL" for="name">Last Name: </label><br>
+        <input type="text" name="lastName" placeholder="Last Name*" required>
+    </div>
+    <div>
+        <label id="emailL" for="name">Email: </label><br>
+        <input type="text" name="email" placeholder="Email*" required>
+    </div>
+    <div>
+        <label id="userNameL" for="name">Username: </label><br>
+        <input type="text" name="username" placeholder="User Name*" required>
+    </div>
+    <div>
+        <label id="passwordL" for="name">Password: </label><br>
+        <input type="password" name="password" placeholder="Password*" required>
+    </div>
+    <div>
+        <button id="submit12" type="submit">Submit</button>
+    </div><br>
+    <h1id="createA">Already have an account?</h1>
+   
+</form><br>
+ <form action="/users/login" method="GET">
+ <div>
+        <button id="submit12" type="LogIn">Log In</button>
+    </div>
+   
+</form>
+
+
+</div>
+
+{{!-- <style>
+            body {
+              background-image: url('bkg3.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            </style> --}}
+<script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
